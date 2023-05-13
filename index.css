@@ -1,0 +1,45 @@
+/* .fixed-header{
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    width: 100%;
+    background-color: blueviolet;
+    color: bisque;
+    padding: 10px;
+}
+body{
+    padding-top: 100px;
+    height: 100vh;
+}
+main{
+    height: 1200px;
+} */
+/* .sticky-nav{
+    position: sticky;
+    background-color: antiquewhite;
+    padding: 20px;
+    top:0;
+} */
+
+.container{
+    position: relative;
+    width: 400px;
+    border: 1px solid black;
+    height: 300px;
+}
+.aboslutediv{
+    position: absolute;
+    background-color: aqua;
+    width: 100px;
+    height: 100px;
+    top: 20px;
+    left: 20px;
+}
+.relativediv{
+    position: relative;
+    background-color: blueviolet;
+    width: 100px;
+    height: 100px;
+    top: 50px;
+    left: 50px;
+}
